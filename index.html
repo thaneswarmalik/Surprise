@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>🎁 Friend Surprise</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- =========================
+BACKGROUND
+========================= -->
+
+<div class="background"></div>
+<!--
+<div id="hearts"></div>
+
+<div id="balloons"></div>
+-->
+<!-- =========================
+COUNTDOWN SECTION
+========================= -->
+
+<section id="countdownSection">
+
+<div class="container">
+
+<h1>
+🎁 A Special Surprise
+</h1>
+
+<p>
+
+A beautiful surprise is waiting for you.
+
+The surprise will unlock only after the countdown ends.
+
+</p>
+
+<div class="countdown">
+
+<div class="time-box">
+
+<h2 id="days">00</h2>
+
+<span>Days</span>
+
+</div>
+
+<div class="time-box">
+
+<h2 id="hours">00</h2>
+
+<span>Hours</span>
+
+</div>
+
+<div class="time-box">
+
+<h2 id="minutes">00</h2>
+
+<span>Minutes</span>
+
+</div>
+
+<div class="time-box">
+
+<h2 id="seconds">00</h2>
+
+<span>Seconds</span>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =========================
+PASSWORD SECTION
+========================= -->
+
+<section id="passwordSection" class="hidden">
+
+<div class="card">
+
+<h2>
+
+🔐 Enter Password
+
+</h2>
+
+<input
+type="password"
+id="password"
+placeholder="Enter Password">
+
+<button id="unlockBtn">
+
+Unlock Surprise
+
+</button>
+
+<p id="error"></p>
+
+</div>
+
+</section>
+
+<!-- =========================
+SURPRISE SECTION
+========================= -->
+
+<section id="surpriseSection" class="hidden">
+
+<div class="container">
+
+<h1 class="typing">
+
+Happy Friendship ❤️
+
+</h1>
+
+<p class="subtitle">
+
+A special surprise made just for you.
+
+</p>
+<!-- =========================
+GIFT SECTION
+========================= -->
+
+<div class="gift-area">
+
+    <div id="giftBox" class="gift-box">
+
+        🎁
+
+    </div>
+
+    <h2>
+
+        Click the Gift 🎁
+
+    </h2>
+
+    <p>
+
+        A special message is hidden inside.
+
+    </p>
+
+</div>
+
+
+<!-- =========================
+LETTER
+========================= -->
+
+<!-- Gift Box Content -->
+
+<div id="giftContent" class="hidden">
+
+    <!-- Gift Image -->
+
+    <img 
+    src="sketch.jpg"
+    class="gift-image"
+    alt="Special Gift">
+
+
+    <!-- Letter -->
+
+    <div class="letter">
+
+        <h2>
+            ✉️ Dear Friend
+        </h2>
+
+        <p>
+            Thank you for being a special part of my life.
+
+            Your friendship means a lot to me.
+
+            I hope this small surprise
+            brings a big smile to your face.
+
+            ❤️
+        </p>
+
+    </div>
+
+</div>
+
+
+<!-- =========================
+PHOTO GALLERY
+========================= -->
+
+<h2 class="gallery-title">
+
+    📸 Beautiful Memories
+
+</h2>
+
+<div class="gallery">
+
+    <img src="orginal.jpg"
+    alt="Photo 1">
+<!--
+    <img src="images/photo2.jpg"
+    alt="Photo 2">
+
+    <img src="images/photo3.jpg"
+    alt="Photo 3">
+
+    <img src="images/photo4.jpg"
+    alt="Photo 4">
+  -->
+
+</div>
+
+<!-- =========================
+VIDEO
+========================= -->
+<!--
+<div class="video-box">
+
+    <h2>
+
+        🎥 A Special Video
+
+    </h2>
+
+    <video controls id="friendVideo">
+
+        <source
+        src="video/video.mp4"
+        type="video/mp4">
+
+        Your browser does not support video.
+
+    </video>
+
+</div>
+  ------>
+
+
+<!-- =========================
+MUSIC
+========================= -->
+
+<div class="music-box">
+
+    <audio
+        id="music"
+        src="music/music.mp3"
+        loop>
+    </audio>
+
+    <button id="musicBtn">
+
+        🎵 Play Music
+
+    </button>
+
+</div>
+<!-- =========================
+EFFECT CANVAS
+========================= -->
+
+<canvas id="confetti"></canvas>
+
+<canvas id="fireworks"></canvas>
+
+</div>
+
+</section>
+
+<!-- =========================
+FOOTER
+========================= -->
+
+<footer>
+
+    <p>
+
+        Made with ❤️ for My Best Friend
+
+    </p>
+
+</footer>
+
+<!-- =========================
+JAVASCRIPT
+========================= -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
