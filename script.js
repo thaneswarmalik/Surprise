@@ -9,7 +9,7 @@
 // Change Surprise Date & Time
 
 const surpriseDate = new Date(
-    "july 30, 2026 00:00:00"
+    "Aug 01, 2026 00:00:00"
 ).getTime();
 
 
